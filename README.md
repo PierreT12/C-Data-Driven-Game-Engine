@@ -4,7 +4,7 @@ An Academic C++ Data Driven Game Engine
 # Features:   
 Uses JSON as the primary Scripting Language
 
-Can be dynamically type objects and construct them at runtime
+Deserialized JSON can be dynamically type objects and construct them at runtime
 
 Custom STL Containers  
 
