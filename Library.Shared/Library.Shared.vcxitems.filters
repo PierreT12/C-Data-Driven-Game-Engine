@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.h">
+      <Filter>Containers\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DefaultHash.inl">
+      <Filter>Containers\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)HashMap.h">
+      <Filter>Containers\HashMap</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)SList.h">
+      <Filter>Containers\SList</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Vector.h">
+      <Filter>Containers\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Datum.h">
+      <Filter>Containers\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Scope.h">
+      <Filter>Containers\Scope</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Attributed.h">
+      <Filter>Attributes\Attributed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)TypeRegistry.h">
+      <Filter>Attributes\TypeRegistry</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)DatumTypes.h">
+      <Filter>Containers\Datum</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)RTTI.h">
+      <Filter>RTTI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Signature.h">
+      <Filter>Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IJsonParseHelper.h">
+      <Filter>JSON\IJsonParseHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonParseMaster.h">
+      <Filter>JSON\JsonParseMaster</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)JsonTableParseHelper.h">
+      <Filter>JSON\JsonTableParseHelper</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Factory.h">
+      <Filter>Factory\AbstractTemplateFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h">
+      <Filter>Containers\Nouns\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h">
+      <Filter>Containers\Nouns\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameTime.h">
+      <Filter>Containers\Nouns\GameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameClock.h">
+      <Filter>Containers\Nouns\GameClock</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Action.h">
+      <Filter>Verbs\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionBlock.h">
+      <Filter>Verbs\ActionBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionIncrement.h">
+      <Filter>Verbs\ActionIncrement</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionCreate.h">
+      <Filter>Verbs\ActionCreate</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionDestroy.h">
+      <Filter>Verbs\ActionDestroy</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionBlockSwitch.h">
+      <Filter>Verbs\ActionBlockSwtich</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameState.h">
+      <Filter>GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)Event.h">
+      <Filter>Events\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)IEvent.h">
+      <Filter>Events\IEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventQueue.h">
+      <Filter>Events\EventQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)EventSubscriber.h">
+      <Filter>Events\EventSubscriber</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)HashMap.inl">
+      <Filter>Containers\HashMap</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)SList.inl">
+      <Filter>Containers\SList</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Vector.inl">
+      <Filter>Containers\Vector</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Datum.inl">
+      <Filter>Containers\Datum</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)RTTI.inl">
+      <Filter>RTTI</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Factory.inl">
+      <Filter>Factory\AbstractTemplateFactory</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)Event.inl">
+      <Filter>Events\Event</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Containers">
+      <UniqueIdentifier>{5a152a40-a298-4417-ac9e-5c09649e5135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\HashMap">
+      <UniqueIdentifier>{f581c884-08da-4bdf-8d9a-afd7bf612bb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\SList">
+      <UniqueIdentifier>{477689a1-eb7c-46ef-9734-ee04cfa9df37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Vector">
+      <UniqueIdentifier>{e9335a79-34ed-457f-a821-b7559e054f07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Datum">
+      <UniqueIdentifier>{57e26ef9-1324-4067-982d-8cf06ae6ecd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Scope">
+      <UniqueIdentifier>{d33f4781-d442-49f8-a1e2-e05b622d016b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RTTI">
+      <UniqueIdentifier>{8398db4a-1581-405d-8155-32d574c3398a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON">
+      <UniqueIdentifier>{8141b10b-9f0c-416a-b6fc-452d920aea6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributes">
+      <UniqueIdentifier>{a9bcf055-a0c4-44e8-ad0d-f73fd052b40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributes\Attributed">
+      <UniqueIdentifier>{54bf2dc5-a546-43e8-8cc9-52d29c1d4249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Attributes\TypeRegistry">
+      <UniqueIdentifier>{20923e2e-e7fa-4229-906f-194d2d77ebb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\IJsonParseHelper">
+      <UniqueIdentifier>{37423925-82c8-47f8-aecb-09eaa962752b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\JsonParseMaster">
+      <UniqueIdentifier>{d058b147-c1cb-4c0a-846f-c8984b2899e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JSON\JsonTableParseHelper">
+      <UniqueIdentifier>{7d01155e-b75c-4145-b615-50d460d58df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory">
+      <UniqueIdentifier>{5a6dd00d-c6a5-4a22-8d45-3f5aae19442d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Factory\AbstractTemplateFactory">
+      <UniqueIdentifier>{77a6cc3e-6671-4085-852f-15ca9278598e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Nouns">
+      <UniqueIdentifier>{cead8994-337f-42f2-adb6-7c1db3ecc235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Nouns\GameObject">
+      <UniqueIdentifier>{19961ea5-62ea-4d06-b804-ca6d8d832ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Nouns\Transform">
+      <UniqueIdentifier>{ba9e60ea-e586-45c2-8826-effee2e5f36f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Nouns\GameClock">
+      <UniqueIdentifier>{77dea7b3-5cc7-4f01-8645-f477353fb99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Containers\Nouns\GameTime">
+      <UniqueIdentifier>{569aa824-e2dc-44a2-9324-3972bacc9904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs">
+      <UniqueIdentifier>{8e11870e-40c9-4a43-9a9a-8f12c65ea8c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\Action">
+      <UniqueIdentifier>{f479cfa8-40ea-489a-ac36-74bf38cca146}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\ActionBlock">
+      <UniqueIdentifier>{a03ee029-5ae6-4f5d-aa58-64f9fafb8882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\ActionIncrement">
+      <UniqueIdentifier>{df96492f-3a0a-4544-a444-c23122fb7404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\ActionCreate">
+      <UniqueIdentifier>{2e73f0cb-6484-44d9-8692-10e144dd973e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\ActionDestroy">
+      <UniqueIdentifier>{e11b8bf0-4871-4de7-882e-1e2e0bb538c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{e5e50f3a-abc1-4dd4-a391-a10799bc1188}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Verbs\ActionBlockSwtich">
+      <UniqueIdentifier>{f3892306-1fc6-473a-b3fc-3f076c414993}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{66f382e3-9a5b-4e61-a82e-27636444ed71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\IEvent">
+      <UniqueIdentifier>{b2165772-9a24-4a96-b4ce-2ef9e0aa85d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\Event">
+      <UniqueIdentifier>{3161942e-f70a-4274-b933-2c35c6bb3735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\EventQueue">
+      <UniqueIdentifier>{a2ee7944-2efc-4875-9dcd-1fdc7e577153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events\EventSubscriber">
+      <UniqueIdentifier>{8055e43c-42b5-4a75-8274-e02375653254}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Datum.cpp">
+      <Filter>Containers\Datum</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Scope.cpp">
+      <Filter>Containers\Scope</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Attributed.cpp">
+      <Filter>Attributes\Attributed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)TypeRegistry.cpp">
+      <Filter>Attributes\TypeRegistry</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IJsonParseHelper.cpp">
+      <Filter>JSON\IJsonParseHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonParseMaster.cpp">
+      <Filter>JSON\JsonParseMaster</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)JsonTableParseHelper.cpp">
+      <Filter>JSON\JsonTableParseHelper</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp">
+      <Filter>Containers\Nouns\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameTime.cpp">
+      <Filter>Containers\Nouns\GameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameClock.cpp">
+      <Filter>Containers\Nouns\GameClock</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)Action.cpp">
+      <Filter>Verbs\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionBlock.cpp">
+      <Filter>Verbs\ActionBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionIncrement.cpp">
+      <Filter>Verbs\ActionIncrement</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionCreate.cpp">
+      <Filter>Verbs\ActionCreate</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionDestroy.cpp">
+      <Filter>Verbs\ActionDestroy</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionBlockSwitch.cpp">
+      <Filter>Verbs\ActionBlockSwtich</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameState.cpp">
+      <Filter>GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)IEvent.cpp">
+      <Filter>Events\IEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventQueue.cpp">
+      <Filter>Events\EventQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)EventSubscriber.cpp">
+      <Filter>Events\EventSubscriber</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
