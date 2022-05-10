@@ -1,0 +1,74 @@
+{
+	"A": {
+		"type": "float",
+		"value": 10
+	},
+
+	"Name": {
+		"type": "string",
+		"value": "Root Game Object"
+	},
+
+
+	"Position": {
+		"type": "vec4",
+		"value": "1.0 1.0 1.0 1.0"
+	},
+
+	"Rotation": {
+		"type": "vec4",
+		"value": "1.0 1.0 1.0 1.0"
+	},
+
+	"Scale": {
+		"type": "vec4",
+		"value": "1.0 1.0 1.0 1.0"
+	},
+
+	"Tag": {
+		"type": "string",
+		"value": "root"
+	},
+
+	"Children": {
+		"type": "table",
+		"value": [
+			{
+				"Child 1": {
+					"type": "table",
+					"class": "GameObject",
+					"value": {
+						"Name": {
+							"type": "string",
+							"value": "GameObject Child One"
+						},
+						"Tag": {
+							"type": "string",
+							"value": "child"
+						}
+
+					}
+				}
+			},
+			{
+				"Child 2": {
+					"type": "table",
+					"class": "Avatar",
+					"value": {
+						"Name": {
+							"type": "string",
+							"value": "Avatar Child One"
+						},
+
+						"Tag": {
+							"type": "string",
+							"value": "child"
+						}
+					}
+				}
+			}
+		]
+	},
+
+
+}

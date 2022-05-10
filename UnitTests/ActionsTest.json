@@ -1,0 +1,131 @@
+{
+	"Actions": {
+		"type": "table",
+		"value": [
+			{
+				"Add 1.5": {
+					"type": "table",
+					"class": "ActionIncrement",
+					"value": {
+						"Name": {
+							"type": "string",
+							"value": "Add 1.5"
+						},
+						"Target": {
+							"type": "string",
+							"value": "A"
+						},
+						"Step": {
+							"type": "float",
+							"value": 1.5
+						}
+					}
+				}
+			},
+			{
+				"Destroy Add 1.5": {
+					"type": "table",
+					"class": "ActionDestroy",
+					"value": {
+						"Name": {
+							"type": "string",
+							"value": "Destory Add 1.5"
+						},
+						"Action To Destory": {
+							"type": "string",
+							"value": "Add 1.5"
+						}
+					}
+				}
+			},
+			{
+				"SwitchCase": {
+					"type": "table",
+					"class": "ActionBlockSwitch",
+					"value": {
+						"Name": {
+							"type": "string",
+							"value": "Add 2.5"
+						},
+						"Switch": {
+							"type": "string",
+							"value": "Case 1"
+						},
+						"Case": {
+							"type": "table",
+							"value": [
+								{
+									"Case 0": {
+										"type": "table",
+										"class": "ActionCreate",
+										"value": {
+											"Name": {
+												"type": "string",
+												"value": "Create Add 1.5"
+											},
+											"Class Name": {
+												"type": "string",
+												"value": "ActionIncrement"
+											}
+										}
+									},
+									"Case 1": {
+										"type": "table",
+										"class": "ActionBlock",
+										"value": {
+											"Actions": {
+												"type": "table",
+												"value": [
+													{
+														"Add 2.5": {
+															"type": "table",
+															"class": "ActionIncrement",
+															"value": {
+																"Name": {
+																	"type": "string",
+																	"value": "Add 2.5"
+																},
+																"Target": {
+																	"type": "string",
+																	"value": "A"
+																},
+																"Step": {
+																	"type": "float",
+																	"value": 2.5
+																}
+															}
+														}
+													},
+													{
+														"Add 3": {
+															"type": "table",
+															"class": "ActionIncrement",
+															"value": {
+																"Name": {
+																	"type": "string",
+																	"value": "Add 3.0"
+																},
+																"Target": {
+																	"type": "string",
+																	"value": "A"
+																},
+																"Step": {
+																	"type": "float",
+																	"value": 3
+																}
+															}
+														}
+													}
+												]
+											}
+										}
+									}
+								}
+							]
+						}
+					}
+				}
+			}
+		]
+	}
+}
